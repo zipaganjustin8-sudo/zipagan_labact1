@@ -1,0 +1,37 @@
+name: zipagan_mobprog
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # TODO: Replace 'surname' in the name above with your own surname.
+  # Example: name: castaneda_mobprog
+  flutter_screenutil: ^5.9.3
+  provider: ^6.1.5
+
+  material_ui: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+  # Fonts are optional. The font files are NOT included in this
+  # boilerplate, so this block is commented out. To use them, add
+  # your font files to assets/fonts/ and uncomment these lines.
+  # fonts:
+  #   - family: Klavika
+  #     fonts:
+  #       - asset: assets/fonts/KlavikaBoldBold.otf
+  #   - family: Frutiger
+  #     fonts:
+  #       - asset: assets/fonts/FrutigerLTStd-Roman.otf
